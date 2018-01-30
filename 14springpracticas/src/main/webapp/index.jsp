@@ -1,3 +1,4 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
 <html>
   <head><title>Example :: Spring Application</title>
   
@@ -12,6 +13,10 @@
   <body>
     <h1>Example - Spring Application</h1>
     <p>This is my test.</p>
+    
+    
+
+<%-- 	 <c:redirect url="/hello.htm"/>  --%>
     
    
     <a class="btn btn-outline-primary" href=hello.htm role="button">Hola</a>

@@ -1,3 +1,4 @@
+<%@ include file="/WEB-INF/views/include.jsp" %>
 <html>
   <head><title>Hello :: Spring Application</title>
   
@@ -12,7 +13,7 @@
   
   <body>
     <h1>Hello - Spring Application</h1>
-    <p>Greetings.</p>
+     <p>Greetings, it is now <c:out value="${now}"/></p>
     
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
