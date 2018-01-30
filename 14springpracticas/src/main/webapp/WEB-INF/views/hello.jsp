@@ -12,8 +12,8 @@
   </head>
   
   <body>
-    <h1>Hello - Spring Application</h1>
-     <p>Greetings, it is now <c:out value="${now}"/></p>
+ 
+
     
     
     <h1><fmt:message key="heading"/></h1>
@@ -22,6 +22,10 @@
     <c:forEach items="${model.products}" var="prod">
       <c:out value="${prod.description}"/> <i>$<c:out value="${prod.price}"/></i><br><br>
     </c:forEach>
+    
+    <br>
+    <a href="<c:url value="priceincrease.htm"/>">Increase Prices</a>
+    <br>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
